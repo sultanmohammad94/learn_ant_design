@@ -5,7 +5,7 @@ import TableWithFilter from './TableWithFilter';
 
 const App = ()=> {
     return (
-        <div class="container">
+        <div className="container">
             <Drag2Upload/>
             <TableWithFilter/>
         </div>
