@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 92%;
+    margin: 0px auto 0px auto;
+    padding: 1rem;
+}
+.ant-upload.ant-upload-drag .ant-upload-btn{
+    padding:1rem;
+}
+
+.ant-table-wrapper {
+    clear: both;
+    width: 80%;
+    max-width: 85%;
+    margin: 1rem auto;
+    
+}
+.ant-table:hover{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
